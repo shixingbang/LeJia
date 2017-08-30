@@ -35,6 +35,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		952EAFBD1F5698CD00FF2D35 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		95A19D6D1F5654B10093AF82 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +61,7 @@
 		95A19D781F5654B10093AF82 /* LeJia */ = {
 			isa = PBXGroup;
 			children = (
+				952EAFBD1F5698CD00FF2D35 /* New Group */,
 				95A19D791F5654B10093AF82 /* AppDelegate.swift */,
 				95A19D7B1F5654B10093AF82 /* ViewController.swift */,
 				95A19D7D1F5654B10093AF82 /* Main.storyboard */,
