@@ -1,31 +1,11 @@
 platform :ios, '9.0'
+use_frameworks!
 
 target 'LeJia' do
-  use_frameworks!
-  
-  pod 'AMapNavi'
-  pod 'AMapSearch'
-
-  # Networking
-  pod 'Moya/RxSwift'
-  pod 'SwiftyJSON'
-  pod 'ObjectMapper'
-
-  # Architecture
-  pod 'ReactorKit'
-
-  # Rx
-  pod 'RxSwift'
-  pod 'RxCocoa'
-  pod 'RxDataSources'
-  pod 'RxOptional'
-  pod 'RxSwiftUtilities', :git => 'https://github.com/RxSwiftCommunity/RxSwiftUtilities.git'
-
-  # UI
-  pod 'SnapKit'
-
-  # Misc.
-  pod 'Then'
+  pod 'Alamofire', '~> 4.4'
+  pod 'SnapKit', '~> 3.2.0'
+  pod 'Kingfisher', '~> 3.9.1'
+  pod 'AMapNavi', '<= 5.0.0'
+  pod 'AMapSearch', '~> 5.0.0' 
   pod "GSKStretchyHeaderView"
-
 end

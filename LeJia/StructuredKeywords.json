@@ -1,0 +1,1368 @@
+{
+	"description": "乐驾结构化语音命令词JSON",
+	"instructions": [
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "搜索"
+				},
+				{
+					"word": "查找"
+				},
+				{
+					"word": "寻找"
+				},
+				{
+					"word": "在哪"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 1,
+			"action": "searchLocal",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "附近的"
+						},
+						{
+							"word": "周围的"
+						},
+						{
+							"word": "四周的"
+						},
+						{
+							"word": "前方的"
+						},
+						{
+							"word": "最近的"
+						},
+						{
+							"word": "近一点的"
+						},
+						{
+							"word": "附近"
+						},
+						{
+							"word": "周围"
+						},
+						{
+							"word": "四周"
+						},
+						{
+							"word": "前方"
+						},
+						{
+							"word": "最近"
+						},
+						{
+							"word": "近一点"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 1,
+					"action": "searchPOI",
+					"have_sublevel": false,
+					"sublevel": []
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "地图"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 0,
+			"action": "showMain",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "显示"
+						},
+						{
+							"word": "打开"
+						},
+						{
+							"word": "界面"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "showMain",
+					"have_sublevel": false,
+					"sublevel": []
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "导航"
+				},
+				{
+					"word": "去"
+				},
+				{
+					"word": "怎么走"
+				},
+				{
+					"word": "走"
+				},
+				{
+					"word": "驾车"
+				},
+				{
+					"word": "驾车去"
+				},
+				{
+					"word": "导航去"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 1,
+			"action": "naviLocal",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "附近的"
+						},
+						{
+							"word": "周围的"
+						},
+						{
+							"word": "四周的"
+						},
+						{
+							"word": "前方的"
+						},
+						{
+							"word": "最近的"
+						},
+						{
+							"word": "近一点的"
+						},
+						{
+							"word": "附近"
+						},
+						{
+							"word": "周围"
+						},
+						{
+							"word": "四周"
+						},
+						{
+							"word": "前方"
+						},
+						{
+							"word": "最近"
+						},
+						{
+							"word": "近一点"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 1,
+					"action": "naviPOI",
+					"have_sublevel": false,
+					"sublevel": []
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "附近的"
+				},
+				{
+					"word": "周围的"
+				},
+				{
+					"word": "四周的"
+				},
+				{
+					"word": "前方的"
+				},
+				{
+					"word": "最近的"
+				},
+				{
+					"word": "近一点的"
+				},
+				{
+					"word": "附近"
+				},
+				{
+					"word": "周围"
+				},
+				{
+					"word": "四周"
+				},
+				{
+					"word": "前方"
+				},
+				{
+					"word": "最近"
+				},
+				{
+					"word": "近一点"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 1,
+			"action": "searchPOI",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "有"
+						},
+						{
+							"word": "吗"
+						},
+					],
+					"can_action_now": true,
+					"now_action_arguments": 1,
+					"action": "searchPOI",
+					"have_sublevel": true,
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "有"
+								},
+								{
+									"word": "吗"
+								},
+							],
+							"can_action_now": true,
+							"now_action_arguments": 1,
+							"action": "searchPOI",
+							"have_sublevel": false,
+							"sublevel": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "加油"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 0,
+			"action": "showRefuel",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "显示"
+						},
+						{
+							"word": "打开"
+						},
+						{
+							"word": "界面"
+						},
+						{
+							"word": "预约"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "showRefuel",
+					"have_sublevel": false,
+					"sublevel": []
+				},
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "订单"
+						},
+						{
+							"word": "单子"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "speechOrder",
+					"have_sublevel": true,
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "显示"
+								},
+								{
+									"word": "打开"
+								},
+								{
+									"word": "界面"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "showOrder",
+							"have_sublevel": false,
+							"sublevel": []
+						},
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "有哪些"
+								},
+								{
+									"word": "念一念"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "speechOrder",
+							"have_sublevel": false,
+							"sublevel": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "订单"
+				},
+				{
+					"word": "单子"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 0,
+			"action": "showOrder",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "显示"
+						},
+						{
+							"word": "打开"
+						},
+						{
+							"word": "界面"
+						},
+						{
+							"word": "预约"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "showOrder",
+					"have_sublevel": false,
+					"sublevel": []
+				},
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "有哪些"
+						},
+						{
+							"word": "念一念"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "speechOrder",
+					"have_sublevel": false,
+					"sublevel": []
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "音乐"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 0,
+			"action": "muiscPlay",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "显示"
+						},
+						{
+							"word": "打开"
+						},
+						{
+							"word": "界面"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "showMusic",
+					"have_sublevel": false,
+					"sublevel": []
+				},
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "播放"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "muiscPlay",
+					"have_sublevel": false,
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "中文"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "muiscPlayChinese",
+							"have_sublevel": false,
+							"sublevel": []
+						},
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "英文"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "muiscPlayEnglish",
+							"have_sublevel": false,
+							"sublevel": []
+						}
+					]
+				},
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "暂停"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "muiscPause",
+					"have_sublevel": false,
+					"sublevel": []
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "播放"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 0,
+			"action": "muiscPlay",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "中文"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "muiscPlayChinese",
+					"have_sublevel": false,
+					"sublevel": []
+				},
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "英文"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "muiscPlayEnglish",
+					"have_sublevel": false,
+					"sublevel": []
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "暂停"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 0,
+			"action": "muiscPause",
+			"have_sublevel": false,
+			"sublevel": []
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "上一首"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 0,
+			"action": "muiscPre",
+			"have_sublevel": false,
+			"sublevel": []
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "上"
+				}
+			],
+			"can_action_now": false,
+			"now_action_arguments": 0,
+			"action": "",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "一"
+						}
+					],
+					"can_action_now": false,
+					"now_action_arguments": 0,
+					"action": "",
+					"have_sublevel": true,
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "首"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "muiscPre",
+							"have_sublevel": true,
+							"sublevel": []
+						},
+					]
+				},
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "下一首"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 0,
+			"action": "muiscNext",
+			"have_sublevel": false,
+			"sublevel": []
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "下"
+				}
+			],
+			"can_action_now": false,
+			"now_action_arguments": 0,
+			"action": "",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "一"
+						}
+					],
+					"can_action_now": false,
+					"now_action_arguments": 0,
+					"action": "",
+					"have_sublevel": true,
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "首"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "muiscNext",
+							"have_sublevel": true,
+							"sublevel": []
+						},
+					]
+				},
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "违章"
+				},
+				{
+					"word": "违章信息"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 0,
+			"action": "showLifestyle",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "显示"
+						},
+						{
+							"word": "界面"
+						},
+						{
+							"word": "打开"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "showLifestyle",
+					"have_sublevel": false,
+					"sublevel": []
+				},
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "有"
+						},
+						{
+							"word": "我有"
+						},
+						{
+							"word": "存在"
+						},
+						{
+							"word": "是什么"
+						},
+						{
+							"word": "查看"
+						},
+						{
+							"word": "显示"
+						},
+						{
+							"word": "查一查"
+						},
+						{
+							"word": "读一读"
+						}
+					],
+					"!words": [
+						{
+							"!word": "怎么"
+						},
+						{
+							"!word": "为什么"
+						},
+						{
+							"!word": "原因"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "speech?Info",
+					"have_sublevel": false,
+					"semantic_depth": 1,
+					"description": "选择哪一辆车",
+					"sublevel": []
+				},
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "怎么"
+						},
+						{
+							"word": "为什么"
+						},
+						{
+							"word": "原因"
+						}
+					],
+					"!words": [
+						{
+							"!word": "有"
+						},
+						{
+							"!word": "存在"
+						},
+						{
+							"!word": "是什么"
+						},
+						{
+							"!word": "查看"
+						},
+						{
+							"!word": "显示"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "askWhichCar&&speech?Reason",
+					"have_sublevel": false,
+					"sublevel": []
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "车辆"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 0,
+			"action": "showCarInfo",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "信息"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "showCarInfo",
+					"have_sublevel": true,
+					
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "显示"
+								},
+								{
+									"word": "打开"
+								},
+								{
+									"word": "界面"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "showCarInfo",
+							"have_sublevel": false,
+							"sublevel": []
+						}
+					]
+				},
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "状态"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "askWhichCar&&speechCarInfo",
+					"have_sublevel": true,
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "怎么样"
+								},
+								{
+									"word": "如何"
+								},
+								{
+									"word": "好吗"
+								},
+								{
+									"word": "有问题吗"
+								},
+								{
+									"word": "播报"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "speechCarInfo",
+							"have_sublevel": false,
+							"semantic_depth": 1,
+							"description": "您要选择哪一辆车",
+							"sublevel": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "天气"
+				}
+			],
+			"can_action_now": true,
+			"now_action_arguments": 0,
+			"action": "speechWeatherToday",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "怎么样"
+						},
+						{
+							"word": "是什么"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "speechWeatherToday",
+					"have_sublevel": true,
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "今天"
+								},
+								{
+									"word": "现在"
+								},
+								{
+									"word": "此时"
+								},
+								{
+									"word": "此刻"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "speechWeatherToday",
+							"have_sublevel": false,
+							"sublevel": []
+						},
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "明天"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "speechWeatherTomorrow",
+							"have_sublevel": false,
+							"sublevel": []
+						},
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "后天"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "speechWeatherAfterTomorrow",
+							"have_sublevel": false,
+							"sublevel": []
+						},
+					]
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "洗车"
+				}
+			],
+			"can_action_now": false,
+			"now_action_arguments": 0,
+			"action": "",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "适合"
+						},
+						{
+							"word": "适宜"
+						},
+						{
+							"word": "可以"
+						},
+						{
+							"word": "可以吗"
+						},
+						{
+							"word": "行吗"
+						},
+						{
+							"word": "好吗"
+						},
+						{
+							"word": "怎么样"
+						}
+					],
+					"!words": [
+						{
+							"!word": "是什么"
+						},
+						{
+							"!word": "在哪"
+						},
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "speechWashCarToday",
+					"have_sublevel": true,
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "今天"
+								},
+								{
+									"word": "现在"
+								},
+								{
+									"word": "此时"
+								},
+								{
+									"word": "此刻"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "speechWashCarToday",
+							"have_sublevel": false,
+							"sublevel": []
+						},
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "明天"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "speechWashCarTomorrow",
+							"have_sublevel": false,
+							"sublevel": []
+						},
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "后天"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "speechWashCarAfterTomorrow",
+							"have_sublevel": false,
+							"sublevel": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "限行"
+				},
+				{
+					"word": "开车"
+				},
+				{
+					"word": "驾车"
+				}
+			],
+			"can_action_now": false,
+			"now_action_arguments": 0,
+			"action": "",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "今天"
+						},
+						{
+							"word": "现在"
+						},
+						{
+							"word": "此时"
+						},
+						{
+							"word": "此刻"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "checkTR&&speechTRToday",
+					"have_sublevel": false,
+					"sublevel": []
+				},
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "明天"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "checkTR&&speechTRTomorrow",
+					"have_sublevel": false,
+					"sublevel": []
+				},
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "钱"
+						}
+					],
+					"can_action_now": false,
+					"now_action_arguments": 0,
+					"action": "",
+					"have_sublevel": true,
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "罚"
+								}
+							],
+							"can_action_now": false,
+							"now_action_arguments": 0,
+							"action": "",
+							"have_sublevel": true,
+							"sublevel": [
+								{
+									"level": 4,
+									"words": [
+										{
+											"word": "多少"
+										}
+									],
+									"can_action_now": true,
+									"now_action_arguments": 0,
+									"action": "罚钱",
+									"have_sublevel": false,
+									"sublevel": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "规则"
+						}
+					],
+					"can_action_now": true,
+					"now_action_arguments": 0,
+					"action": "限行规则",
+					"have_sublevel": true,
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "是什么"
+								}
+							],
+							"!words": [
+								{
+									"!words": "为什么"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "限行规则",
+							"have_sublevel": false,
+							"sublevel": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"level": 1,
+			"words": [
+				{
+					"word": "限"
+				}
+			],
+			"can_action_now": false,
+			"now_action_arguments": 0,
+			"action": "",
+			"have_sublevel": true,
+			"sublevel": [
+				{
+					"level": 2,
+					"words": [
+						{
+							"word": "行"
+						}
+					],
+					"can_action_now": false,
+					"now_action_arguments": 0,
+					"action": "",
+					"have_sublevel": true,
+					"sublevel": [
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "今天"
+								},
+								{
+									"word": "现在"
+								},
+								{
+									"word": "此时"
+								},
+								{
+									"word": "此刻"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "checkTR&&speechTRToday",
+							"have_sublevel": false,
+							"sublevel": []
+						},
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "明天"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "checkTR&&speechTRTomorrow",
+							"have_sublevel": false,
+							"sublevel": []
+						},
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "钱"
+								}
+							],
+							"can_action_now": false,
+							"now_action_arguments": 0,
+							"action": "",
+							"have_sublevel": true,
+							"sublevel": [
+								{
+									"level": 4,
+									"words": [
+										{
+											"word": "罚"
+										}
+									],
+									"can_action_now": false,
+									"now_action_arguments": 0,
+									"action": "",
+									"have_sublevel": true,
+									"sublevel": [
+										{
+											"level": 5,
+											"words": [
+												{
+													"word": "多少"
+												}
+											],
+											"can_action_now": true,
+											"now_action_arguments": 0,
+											"action": "罚钱",
+											"have_sublevel": false,
+											"sublevel": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"level": 3,
+							"words": [
+								{
+									"word": "规则"
+								}
+							],
+							"can_action_now": true,
+							"now_action_arguments": 0,
+							"action": "限行规则",
+							"have_sublevel": true,
+							"sublevel": [
+								{
+									"level": 4,
+									"words": [
+										{
+											"word": "什么"
+										}
+									],
+									"can_action_now": false,
+									"now_action_arguments": 0,
+									"action": "限行规则",
+									"have_sublevel": true,
+									"sublevel": [
+										{
+											"level": 5,
+											"words": [
+												{
+													"word": "是"
+												}
+											],
+											"can_action_now": true,
+											"now_action_arguments": 0,
+											"action": "限行规则",
+											"have_sublevel": false,
+											"sublevel": []
+										}
+									]
+								},
+								{
+									"level": 4,
+									"words": [
+										{
+											"word": "是什么"
+										}
+									],
+									"can_action_now": true,
+									"now_action_arguments": 0,
+									"action": "限行规则",
+									"have_sublevel": false,
+									"sublevel": []
+								}
+							]
+						}
+					]
+				},
+			]
+		}
+	],
+"roughHandlingWords": [
+	{
+		"word": "的"
+	},
+	{
+		"word": "我"
+	},
+	{
+		"word": "帮我"
+	},
+	{
+		"word": "想"
+	},
+	{
+		"word": "要"
+	},
+	{
+		"word": "吗"
+	},
+	{
+		"word": "怎么"
+	},
+	{
+		"word": "你"
+	},
+	{
+		"word": "她"
+	},
+	{
+		"word": "俺"
+	},
+	{
+		"word": "自己"
+	}
+]
+}
+
+
+
